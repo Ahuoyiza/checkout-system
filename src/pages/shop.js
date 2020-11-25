@@ -26,7 +26,12 @@ import "./shop.css"
                     {product.title}
                     </div>
                 <img src={product.image} alt={product.title}/>
+
+                <div className="price">${product.price}</div>
+                <div className="description">{product.description}</div>
+                <div className="category">{product.category}</div>
                 </div>
+                
                 
                 )
         }
