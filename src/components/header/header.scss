@@ -10,6 +10,11 @@
     width: 70px;
     padding: 25px;
   }
+  img {
+    width: 50%;
+    height: 70px;
+    object-fit: cover;
+  }
 
   .options {
     width: 50%;
