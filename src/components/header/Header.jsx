@@ -1,5 +1,10 @@
 import React from 'react';
 import CartIcon from "../cart-icon/CartIcon"
+import CartDropdown from "../cart-dropdown/CartDropdwon"
+
+import Logo from "../../assets/Logo.png";
+
+
 
 import "./header.scss";
 
@@ -7,10 +12,11 @@ import "./header.scss";
     return (
         <div className="header">
             <div className="logo-container"></div>
-            <img className="logo" src= {} alt="logo" />
+            <img className="logo" src= {Logo} alt="logo" />
             <div className="option">
                 <CartIcon />
             </div>
+            <CartDropdown />
         </div>
     )
 }

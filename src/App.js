@@ -1,12 +1,13 @@
 
 import './App.css';
 
+import Header from './components/header/Header'
 import ShopPage from "./pages/shop"
 
 function App() {
   return (
     <div className="App">
-      <h1>Default</h1>
+      <Header />
       <ShopPage />
     </div>
   );
